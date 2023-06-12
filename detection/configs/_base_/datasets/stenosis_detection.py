@@ -2,7 +2,7 @@
 
 dataset_type = "CocoStenosisBinaryDataset"
 fold = "FOLD0"
-data_root = "/ai/mnt/data/stenosis/selected/Binary/FOLD0/"
+data_root = "/ai/mnt/data/stenosis/selected_small/Binary/FOLD0/"
 dataset_name = "STENOSIS_BINARY"
 train_ann_file = "annotations/train_binary.json"
 val_ann_file = "annotations/val_binary.json"

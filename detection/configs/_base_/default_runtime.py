@@ -12,7 +12,7 @@ custom_hooks = [dict(type="NumClassCheckHook")]
 
 default_hooks = dict(
     timer=dict(type="IterTimerHook"),
-    logger=dict(type="LoggerHook", interval=50),
+    logger=dict(type="LoggerHook", interval=150),
     param_scheduler=dict(type="ParamSchedulerHook"),
     checkpoint=dict(
         type="CheckpointHook", interval=5, save_best="auto", max_keep_ckpts=5
