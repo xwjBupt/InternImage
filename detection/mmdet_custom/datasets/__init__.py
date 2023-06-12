@@ -5,3 +5,4 @@
 # --------------------------------------------------------
 
 from .crowd_human import CrowdHumanDataset
+from .stenosis_binary import CocoStenosisBinaryDataset

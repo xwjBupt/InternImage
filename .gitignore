@@ -4,3 +4,10 @@
 __pycache__/
 classification/convertor/
 segmentation/convertor/
+*.so
+*.o
+*.egg
+*.txt
+detection/ops_dcnv3/DCNv3.egg-info/PKG-INFO
+ops_dcnv3*
+*work_dirs*
